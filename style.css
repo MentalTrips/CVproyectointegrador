@@ -41,12 +41,30 @@ body {
     font-weight: bold
 }
 
-#perfil {
-    border-radius: 50%;
-    position: relative;
-    text-align: center;
-    margin-left: 550px;
-    margin-top: 20px;
+section {
+     display: flex;
+     width: 600px;
+     height: 430px;  
+     border-radius: 50%;
+     position: relative;
+     text-align: center;
+     margin-left: 400px;
+     margin-top: 20px;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 5s ease;
+
+}
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
 }
 
 #informacion {
@@ -74,7 +92,7 @@ body {
         box-shadow: 0 12px 20px #439bf33d;
         border-radius: 22px;
         color: #fff;
-        min-height: 245.5px;
+        min-height: 100px;
         text-align: center;
         flex-flow: row wrap;
         box-sizing: border-box;
@@ -93,9 +111,23 @@ body {
 
 #botones {
     text-align: center;
-    background-color: rgb(1, 153, 199);
+    background-color: rgb(255, 255, 255);
     margin-top: 50px;
     font-family:'Oswald', sans-serif;
     padding: 30px;
-    background: rgb(1, 153, 199);
+    background: rgb(255, 255, 255);
 }
+#bla {
+    background-color: #1890ff;
+    color: white;
+    font-size: 20xp;
+    text-align: center;
+    padding: 20px 10px;
+    width: 200px;
+    border: 12px;
+    border-radius: 12px;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    box-shadow: 0px 5px 4px 5px #d5d5d5;
+}
+
