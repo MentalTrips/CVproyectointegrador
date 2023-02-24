@@ -1,8 +1,8 @@
 body {
-    background: rgb(252, 252, 252);
+    background: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
-    background: url(https://i.pinimg.com/564x/a1/26/e7/a126e7204ec695760b182f596a969144.jpg);
+    background: url(https://i.imgur.com/wQKnW6i.jpeg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -23,7 +23,7 @@ body {
     --scroll-bar: 0;
     --main-border: #edf5fd;
     --secondery-border: #e2e2e2;
-    --primary-color: #07f;
+    background: transparent;
     --danger-color: #f44336;
     --light-danger-color: #ffecec;
     --active-text-color: #fff;
@@ -38,8 +38,7 @@ body {
     vertical-align: baseline;
     margin: 10px 100px;
     padding: 0px;
-    background-image: linear-gradient(to right,#478bef,#44acf1);
-    box-shadow: 0 5px 4px 4px grey;
+    box-shadow: 0 3px 2px 2px rgb(0, 0, 0);
     border-radius: 22px;
     color: #fff;
     min-height: 50px;
@@ -90,8 +89,8 @@ section img {
         vertical-align: baseline;
         margin: 10px 100px;
         padding: 10px;
-        background-image: linear-gradient(to right,#478bef,#44acf1);
-        box-shadow: 0 5px 4px 4px grey;
+        background: transparent;
+        box-shadow: 0 3px 2px 2px rgb(0, 0, 0);
         border-radius: 30px;
         color: #fff;
         min-height: 100px;
@@ -118,8 +117,9 @@ section img {
     padding: 30px;
     opacity: 1;
 }
+
 #bla {
-    background-color: #1890ff;
+    background: transparent;
     color: rgb(255, 255, 255);
     font-size: 20xp;
     text-align: center;
@@ -130,6 +130,6 @@ section img {
     border-radius: 12px;
     transition-duration: 0.3s;
     -webkit-transition-duration: 0.3s;
-    box-shadow: 0px 5px 4px 5px grey;
-    opacity: 0.8;
+    box-shadow: 0px 3px 2px 3px rgb(0, 0, 0);
+    opacity: .8;
 }
